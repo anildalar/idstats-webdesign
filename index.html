@@ -39,11 +39,7 @@
             }
             footer{
             }
-            .a_header_nav > li > a{
-                padding: 61px 32px 20px 32px !important;
-                border-bottom-left-radius: 10px;
-                border-bottom-right-radius: 10px;
-            }
+           
             .a_header_nav > li > a:hover{
               background: #573a70;
                 color:#ffb900 !important;
@@ -116,14 +112,22 @@
             header .dropdown-menu a:hover{
               background-color:#FFB900;;
             }
-            @media screen and (max-width: 992px){
+            @media screen and (max-width: 991px){
                 .a_header_nav{
                     background: #573a70 !important;
                 }
                 .a_header_nav a{
-                    border-bottom:1px solid #744c97 ;
-                    border-radius: 0px !important;
+                  padding: 20px 32px 20px 32px !important;
+                  border-bottom:1px solid #744c97 ;
+                  border-radius: 0px !important;
                 }
+            }
+            @media screen and (min-width: 992px){
+              .a_header_nav > li > a{
+                  padding: 61px 32px 20px 32px !important;
+                  border-bottom-left-radius: 10px;
+                  border-bottom-right-radius: 10px;
+              }
             }
         </style>
     </head>
